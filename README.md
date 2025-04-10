@@ -1,14 +1,4 @@
 
-## general areas
-
-1) GPU scheduling (DRA or some better support for nvidia plugin)
-2) AI related scalers (metrics)
-3) Glue - for operating the auto-scaleable models
-4) Adding and releasing GPU enabled nodes dynamically to k8s cluster
-5) Multi-cluster (overflow to a cluster that have GPUs 'attached' say spotinstances that are cheaper)
-6) Maybe introduce a new CRD on the KEDA level that will support heterogeneous settings across replicas (currently all replicas of a single deployment or statefulset are identical)
-
-
 ## Types of 'AIs'
 - standard methods - decision trees, PCA, naive bayes, K-NN, etc.
 - neural nets - different topologies, RNNs for text for instance
