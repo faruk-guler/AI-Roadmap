@@ -1,4 +1,3 @@
-# Kedify AI use-cases
 
 ## general areas
 
