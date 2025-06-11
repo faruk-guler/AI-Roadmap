@@ -9,12 +9,12 @@ https://ollama.com/library
 
 #Commands:
 ollama pull deepseek-r1
+ollama list
 ollama run deepseek-r1
 ollama stop deepseek-r1
 #ollama rm deepseek-r1
 ollama cp deepseek-r1 my-model
 ollama show deepseek-r1
-ollama list
 ollama ps
 ollama stop deepseek-r1
 ollama serve
