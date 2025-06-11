@@ -12,18 +12,20 @@ https://ollama.com/library
 > https://ollama.com/library/deepseek-r1
 
 # Commands:
-ollama pull deepseek-r1:8b
 ollama list
-ollama run deepseek-r1
-ollama stop deepseek-r1
-#ollama rm deepseek-r1
-ollama cp deepseek-r1 my-model
-ollama show deepseek-r1
 ollama ps
-ollama stop deepseek-r1
+ollama pull deepseek-r1:8b
+ollama run deepseek-r1:8b
+ollama stop deepseek-r1:8b
+#ollama rm deepseek-r1:8b
+ollama cp deepseek-r1:8b my-model
+ollama show deepseek-r1:8b
+ollama stop deepseek-r1:8b
 ollama serve
 systemctl start ollama
 systemctl status ollama
+systemctl stop ollama
+systemctl enable ollama
 sudo systemctl daemon-reload
 sudo systemctl enable ollama.service
 sudo systemctl start ollama.service
