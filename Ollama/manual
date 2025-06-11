@@ -6,3 +6,13 @@ https://ollama.com/download/linux
 
 https://ollama.com/library
 > https://ollama.com/library/deepseek-r1
+
+#Commands:
+ollama pull llama3.2
+ollama rm llama3.2
+ollama cp llama3.2 my-model
+ollama show llama3.2
+ollama list
+ollama ps
+ollama stop llama3.2
+ollama serve
