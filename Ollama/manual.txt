@@ -1,4 +1,4 @@
-# Ollama Install on Debian:
+# Install on Debian:
 https://ollama.com
 https://ollama.com/download/linux
 https://github.com/ollama/ollama
