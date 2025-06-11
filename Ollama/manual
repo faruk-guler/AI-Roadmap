@@ -1,5 +1,5 @@
 https://ollama.com/download/linux
 > curl -fsSL https://ollama.com/install.sh | sh
 
-https://ollama.com/models
+https://ollama.com/library
 > https://ollama.com/library/deepseek-r1
