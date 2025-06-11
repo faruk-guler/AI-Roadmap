@@ -9,3 +9,7 @@ sudo nano /etc/systemd/system/ollama.service
 add: Environment="OLLAMA_HOST=172.17.0.1"
 sudo systemctl daemon-reload
 sudo systemctl restart ollama
+
+> Files:
+/var/lib/docker/volumes
+/var/lib/docker/volumes/open-webui
