@@ -11,7 +11,7 @@ https://ollama.com/library
 > https://ollama.com/library/deepseek-r1
 
 #Ollama Commands:
-ollama pull deepseek-r1
+ollama pull deepseek-r1:8b
 ollama list
 ollama run deepseek-r1
 ollama stop deepseek-r1
