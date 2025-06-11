@@ -1,16 +1,17 @@
 https://github.com/open-webui/open-webui
 
+#Deploy open-webui:
 > If Ollama is on your computer, use this command:
 docker pull ghcr.io/open-webui/open-webui:main
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 
-> Network Settings:
+# Network Settings:
 sudo docker network inspect bridge
 sudo nano /etc/systemd/system/ollama.service
 add: Environment="OLLAMA_HOST=172.17.0.1"
 sudo systemctl daemon-reload
 sudo systemctl restart ollama
 
-> open-webui Files:
+# open-webui Files:
 /var/lib/docker/volumes
 /var/lib/docker/volumes/open-webui
