@@ -1,7 +1,8 @@
 #Install on Debian Linux:
 https://ollama.com
-https://github.com/ollama/ollama
 https://ollama.com/download/linux
+https://github.com/ollama/ollama
+
 > curl -fsSL https://ollama.com/install.sh | sh
 > ollama --version
 
