@@ -16,3 +16,4 @@ ollama list
 ollama ps
 ollama stop llama3.2
 ollama serve
+......
