@@ -18,4 +18,9 @@ ollama show deepseek-r1
 ollama ps
 ollama stop deepseek-r1
 ollama serve
+systemctl start ollama
+systemctl status ollama
+sudo systemctl daemon-reload
+sudo systemctl enable ollama.service
+sudo systemctl start ollama.service
 ......
