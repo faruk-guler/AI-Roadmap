@@ -6,10 +6,11 @@ https://github.com/ollama/ollama
 > curl -fsSL https://ollama.com/install.sh | sh
 > ollama --version
 
+#Library:
 https://ollama.com/library
 > https://ollama.com/library/deepseek-r1
 
-#Commands:
+#Ollama Commands:
 ollama pull deepseek-r1
 ollama list
 ollama run deepseek-r1
