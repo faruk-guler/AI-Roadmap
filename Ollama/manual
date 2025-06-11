@@ -1,4 +1,4 @@
-#Install on Debian Linux:
+# Install on Debian Linux:
 https://ollama.com
 https://ollama.com/download/linux
 https://github.com/ollama/ollama
@@ -6,11 +6,11 @@ https://github.com/ollama/ollama
 > curl -fsSL https://ollama.com/install.sh | sh
 > ollama --version
 
-#Library:
+# Library:
 https://ollama.com/library
 > https://ollama.com/library/deepseek-r1
 
-#Ollama Commands:
+# Ollama Commands:
 ollama pull deepseek-r1:8b
 ollama list
 ollama run deepseek-r1
