@@ -30,7 +30,7 @@ systemctl start ollama
 systemctl status ollama
 systemctl stop ollama
 systemctl enable ollama
-sudo systemctl daemon-reload
-sudo systemctl enable ollama.service
-sudo systemctl start ollama.service
+systemctl daemon-reload
+systemctl enable ollama.service
+systemctl start ollama.service
 ......
