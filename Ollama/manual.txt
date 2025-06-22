@@ -5,7 +5,7 @@ https://github.com/ollama/ollama
 
 > curl -fsSL https://ollama.com/install.sh | sh
 > systemctl status ollama
-> ollama --version
+> ollama -v
 
 # Library:
 https://ollama.com/library
@@ -15,6 +15,7 @@ https://ollama.com/library
 ollama list
 ollama ps
 ollama help
+ollama -v
 ollama pull deepseek-r1:8b
 ollama push my-model
 ollama run deepseek-r1:8b
