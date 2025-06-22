@@ -14,14 +14,17 @@ https://ollama.com/library
 # Commands:
 ollama list
 ollama ps
+ollama help
 ollama pull deepseek-r1:8b
+ollama push my-model
 ollama run deepseek-r1:8b
 ollama stop deepseek-r1:8b
+ollama create my-model -f Modelfile
 #ollama rm deepseek-r1:8b
 ollama cp deepseek-r1:8b my-model
 ollama show deepseek-r1:8b
 ollama stop deepseek-r1:8b
-ollama serve
+ollama serve >> http://localhost:11434
 systemctl start ollama
 systemctl status ollama
 systemctl stop ollama
