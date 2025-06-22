@@ -5,14 +5,16 @@ https://github.com/open-webui/open-webui
 docker pull ghcr.io/open-webui/open-webui:main
 docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 
-# Alternative Deploy: Host Network Mode:
+# Alternative Deploy 1 : Host Network Mode:
 docker pull ghcr.io/open-webui/open-webui:main
 docker run -d --network host -e OLLAMA_BASE_URL=http://localhost:11434 -v open-webui:/app/backend/data --name open-webui --restart always  ghcr.io/open-webui/open-webui:main
 export OLLAMA_HOST=0.0.0.0:11434
 sudo systemctl restart ollama
 http://server-ip:8080
 
+# Alternative Deploy 2 :
+docker run -d -p 3000:8080 –add-host=host.docker.internal:host-gateway -v open-webui:/app/backend/data –name open-webui –restart always ghcr.io/open-webui/open-webui:main
+
 # Files open-webui:
 /var/lib/docker/volumes
 /var/lib/docker/volumes/open-webui
-
